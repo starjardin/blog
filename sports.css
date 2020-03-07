@@ -1,0 +1,73 @@
+body {
+  background-color: rgb(173, 250, 166);
+}
+p {
+  font-family: 'Times New Roman';
+  font-size: x-large;
+}
+
+figure> img {
+  width: 300px;
+  list-style-image: image(jpg);
+  margin: auto;
+  padding-top: 10px;
+  padding-right: 5px;
+  padding-bottom: 10px;
+  padding-left: 5x;
+}
+
+body h1 {
+  font-family: serif;
+  font-size: 100px;
+  background-image: linear-gradient(rgb(255, 0, 255, .5)), rgba(255, 0, 0, .2);
+  color: rgba(38, 131, 50, .8);
+}
+
+.my-favourite {
+  font-size: medium;
+  background-image: linear-gradient(to top, rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+}
+
+.my_aspiration {
+  background-image: repeating-linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+}
+
+.least_favourite {
+  background-image: repeating-linear-gradient(to right, rgba(255,255,0,0.5), rgba(0,0,255,0.5));
+}
+
+section h2 {
+  font-size: 60px;
+}
+
+.my-favourite h2 {
+  font-family: sans-serif;
+  color: rgb(111, 128, 13);
+}
+
+.my_aspiration h2 {
+  font-family: 'Gill Sans';
+  color: rgb(120, 151, 34);
+}
+
+.least_favourite h2 {
+  font-family: -apple-system;
+  color: rgb(34, 40, 126);
+}
+
+footer {
+  font-size: x-large;
+}
+
+ nav {
+   background-color: rgb(51, 128, 0);
+   padding-top: 20px;
+   padding-right: 10px;
+   padding-bottom: 20px;
+   padding-left: 10px;
+}
+
+   nav> a {
+  color: white;
+  font-family: monospace;
+ }
