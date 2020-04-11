@@ -1,6 +1,13 @@
+html {
+  margin-inline-start: 1rem;
+  max-width: 50rem;
+}
+
 body {
   background-color: rgb(173, 250, 166);
+  max-width: 40rem;
 }
+
 p {
   font-family: 'Times New Roman';
   font-size: x-large;
@@ -10,10 +17,7 @@ figure> img {
   width: 300px;
   list-style-image: image(jpg);
   margin: auto;
-  padding-top: 10px;
-  padding-right: 5px;
-  padding-bottom: 10px;
-  padding-left: 5x;
+  padding: 10px 5px 10px 5px;
 }
 
 body h1 {
