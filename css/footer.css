@@ -1,0 +1,12 @@
+:root {
+  --base-unit: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-block-end: var(--base-unit);
+  padding-block-start: calc(var(--base-unit) * 2);
+  border-top: 1px solid grey;
+}
+
