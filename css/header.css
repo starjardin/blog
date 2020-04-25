@@ -1,4 +1,13 @@
 h1 {
   display: block;
   text-align: center;
+  text-transform: uppercase;
+  padding-block-start: 3rem;
+}
+
+header h1 {
+  background-image: url(../images/odyai.jpg);
+  height: 10rem;
+  background-repeat: no-repeat;
+  border-radius: 2rem;
 }
