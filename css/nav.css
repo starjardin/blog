@@ -1,0 +1,16 @@
+:root {
+  --base-margin: 2rem;
+}
+
+nav {
+  padding-block-start: var(--base-margin);
+  padding-block-end: var(--base-margin);
+  padding-inline-start: var(--base-margin);
+}
+
+nav ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 15px;
+  gap: 15px;
+}
