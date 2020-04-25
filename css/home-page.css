@@ -1,0 +1,41 @@
+/* body {
+  background-image: linear-gradient(290deg, rgb(46, 0, 67) 0%, rgb(255, 0, 255) 25%, rgb(0, 255, 255) 50%, rgb(45, 45, 255) 75%, rgb(32, 23, 3) 100%);
+  background-repeat: no-repeat;
+  margin: 1rem 0 0 0;
+  margin: 0;
+  background-size: contain;
+}
+
+body h1 {
+  margin: 1rem 0 2rem 0;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+body > nav > ul {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-column-gap: 15px;
+  column-gap: 15px;
+  margin: 1rem 0 0 0;
+}
+
+body > nav > ul li {
+  list-style: none;
+}
+
+body a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px;
+  font-family: sans-serif;
+}
+
+nav > * {
+  text-align: center;
+} */
+
+
+

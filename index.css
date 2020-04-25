@@ -1,5 +1,0 @@
-body > nav > ul {
-  display: grid;
-  grid-template-columns: repeat(5, 145px);
-}
-
