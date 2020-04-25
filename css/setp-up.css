@@ -1,0 +1,20 @@
+:root {
+  --base-margin: 2rem;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-inline-start: var(--base-margin);
+}
+
+section + section {
+  margin-block-start: calc(var(--base-margin) * 2);
+}
+
+section > h2 {
+  margin-inline-start: var(--base-margin);
+}
+
+li {
+  list-style: none;
+}
