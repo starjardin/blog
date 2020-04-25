@@ -2,10 +2,14 @@ a {
   text-decoration: none;
 }
 
+.storm {
+  color: white;
+}
+
 a:hover {
   transition: ease-in-out;
   transition-duration: .5s;
   color: white;
   background-color: green;
-  transform: scaleX(3);
+  transform: with scale(3);
 }
