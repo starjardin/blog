@@ -1,0 +1,20 @@
+$fonts : (
+  (font-family: "NotoSansKr", weight: 400, style: italic, filename: "NotoSansKr"),
+  (font-family: "NotoSansKr", weight: 700, style: italic, filename: "NotoSansKr"),
+  (font-family: "NotoSansKr", weight: 400, style: normal, filename: "NotoSansKr"),
+  (font-family: "NotoSansKr", weight: 700, style: normal, filename: "NotoSansKr"),
+);
+
+@each $font in ($fonts) {
+  @font-face {
+      font-family: map-get($font, family);
+      font-weight: map-get($font, weight);
+      font-style: map-get($font, style);
+      src: local("#{map-get($font, filename)}-Regular"),
+            local("#{map-get($font, filename)} Regular"),
+            local("#{map-get($font, filename)}-Bold"),
+            local("#{map-get($font, filename)} Bold"),
+            url('../fonts/#{map-get($font, filename)}-Italic.woff') format(woff),
+            url('../fonts/#{map-get($font, filename)}-Regular.woff2') format(woff2);
+  };
+}
