@@ -1,8 +1,10 @@
+@import "mixin";
+
+
+//Fonts variables
 $fonts : (
-  (font-family: "NotoSansKr", weight: 400, style: italic, filename: "NotoSansKr"),
-  (font-family: "NotoSansKr", weight: 700, style: italic, filename: "NotoSansKr"),
-  (font-family: "NotoSansKr", weight: 400, style: normal, filename: "NotoSansKr"),
-  (font-family: "NotoSansKr", weight: 700, style: normal, filename: "NotoSansKr"),
+  (family: "NotoSansKR", weight: 400, style: normal, filename: "NotoSansKR"),
+  (family: "NotoSansKR", weight: 700, style: normal, filename: "NotoSansKR"),
 );
 
 @each $font in ($fonts) {
@@ -11,10 +13,19 @@ $fonts : (
       font-weight: map-get($font, weight);
       font-style: map-get($font, style);
       src: local("#{map-get($font, filename)}-Regular"),
-            local("#{map-get($font, filename)} Regular"),
-            local("#{map-get($font, filename)}-Bold"),
-            local("#{map-get($font, filename)} Bold"),
-            url('../fonts/#{map-get($font, filename)}-Italic.woff') format(woff),
-            url('../fonts/#{map-get($font, filename)}-Regular.woff2') format(woff2);
+           local("#{map-get($font, filename)} Regular"),
+           local("#{map-get($font, filename)}-Bold"),
+           local("#{map-get($font, filename)} Bold"),
+           url('../fonts/#{map-get($font, filename)}-Italic.woff') format(woff),
+           url('../fonts/#{map-get($font, filename)}-Regular.woff2') format(woff2);
   };
-}
+};
+
+//image function variables
+@function img($filename) {
+  @return url("../img/#{$filename}");
+};
+
+
+//color variables
+$priamry-color: #0000ff;
