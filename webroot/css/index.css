@@ -1,0 +1,74 @@
+@font-face {
+  font-family: "NotoSansKR";
+  font-weight: 400;
+  font-style: normal;
+  src: local("NotoSansKR-Regular"), local("NotoSansKR Regular"), local("NotoSansKR-Bold"), local("NotoSansKR Bold"), url("../fonts/NotoSansKR-Italic.woff") format(woff), url("../fonts/NotoSansKR-Regular.woff2") format(woff2); }
+
+@font-face {
+  font-family: "NotoSansKR";
+  font-weight: 700;
+  font-style: normal;
+  src: local("NotoSansKR-Regular"), local("NotoSansKR Regular"), local("NotoSansKR-Bold"), local("NotoSansKR Bold"), url("../fonts/NotoSansKR-Italic.woff") format(woff), url("../fonts/NotoSansKR-Regular.woff2") format(woff2); }
+
+h1 {
+  font-family: "NotoSnasKR";
+  font-weight: 400;
+  font-style: normal; }
+
+@font-face {
+  font-family: "NotoSansKR";
+  font-weight: 400;
+  font-style: normal;
+  src: local("NotoSansKR-Regular"), local("NotoSansKR Regular"), local("NotoSansKR-Bold"), local("NotoSansKR Bold"), url("../fonts/NotoSansKR-Italic.woff") format(woff), url("../fonts/NotoSansKR-Regular.woff2") format(woff2); }
+
+@font-face {
+  font-family: "NotoSansKR";
+  font-weight: 700;
+  font-style: normal;
+  src: local("NotoSansKR-Regular"), local("NotoSansKR Regular"), local("NotoSansKR-Bold"), local("NotoSansKR Bold"), url("../fonts/NotoSansKR-Italic.woff") format(woff), url("../fonts/NotoSansKR-Regular.woff2") format(woff2); }
+
+.header {
+  background-color: primary-color; }
+
+@font-face {
+  font-family: "NotoSansKR";
+  font-weight: 400;
+  font-style: normal;
+  src: local("NotoSansKR-Regular"), local("NotoSansKR Regular"), local("NotoSansKR-Bold"), local("NotoSansKR Bold"), url("../fonts/NotoSansKR-Italic.woff") format(woff), url("../fonts/NotoSansKR-Regular.woff2") format(woff2); }
+
+@font-face {
+  font-family: "NotoSansKR";
+  font-weight: 700;
+  font-style: normal;
+  src: local("NotoSansKR-Regular"), local("NotoSansKR Regular"), local("NotoSansKR-Bold"), local("NotoSansKR Bold"), url("../fonts/NotoSansKR-Italic.woff") format(woff), url("../fonts/NotoSansKR-Regular.woff2") format(woff2); }
+
+.header_menu ul,
+.footer_navigation ul {
+  padding: 0; }
+
+.header_menu ul > li,
+.footer_navigation ul > li {
+  list-style: none; }
+
+.header_menu ul > li > a,
+.footer_navigation ul > li > a {
+  text-decoration: none; }
+
+.header_menu-listts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.page-list--anchor {
+  display: block;
+  width: 20px;
+  height: 20px; }
+
+.page-list > [href="twitter"] {
+  background-image: url("../img/twitter.svg"); }
+
+@media (min-width: 720px) {
+  .page-lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; } }
