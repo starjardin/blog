@@ -1,5 +1,68 @@
 @import "variables";
 
 .header {
-  display: block;
+  background-color: primary-color;
 }
+
+.header_container {
+  @include flex-row;
+  align-items: center;
+}
+
+.header_menu-listts {
+  width: 100%;
+}
+
+.heading span {
+  opacity: 0;
+}
+
+#checkbox {
+  order: 3;
+}
+
+.header {
+  position: relative;
+}
+
+.header_menu {
+  transform: translateX(-110%);
+  position: absolute;
+}
+
+.header_menu-anchor {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header_menu-lists {
+  @include flex-col;
+  justify-content: start;
+}
+
+[type="checkbox"]:checked ~ .header_menu {
+  position: absolute;
+  transform: translateX(0);
+  width: 250px;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  background-color: #cccccc;
+}
+
+[type="checkbox"]:checked ~ .header_menu > label {
+  width: 100vw;
+  display: inline-block;
+  background-color: red;
+  height: 100vh;
+}
+
+@media (min-width: 720px) {
+  .header_menu {
+    order: 2;
+    width: 50%;
+  }
+}
+

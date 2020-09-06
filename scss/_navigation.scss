@@ -8,17 +8,19 @@
   @include flex-row;
 }
 
-.page-list--anchor {
-  display: block;
-  width: 20px;
-  height: 20px;
-}
-
 .page-list > [href="twitter"] {
   background-image: img("twitter.svg");
 }
 
+.navigation-lists {
+  list-style: circle;
+}
 
+.page-list--anchor {
+  color: #eeeeee;
+  text-transform: uppercase;
+  padding: 1rem;
+}
 
 @media (min-width: 720px) {
   .page-lists {
