@@ -16,8 +16,8 @@ $fonts : (
            local("#{map-get($font, filename)} Regular"),
            local("#{map-get($font, filename)}-Bold"),
            local("#{map-get($font, filename)} Bold"),
-           url('../fonts/#{map-get($font, filename)}-Italic.woff') format(woff),
-           url('../fonts/#{map-get($font, filename)}-Regular.woff2') format(woff2);
+           url('../fonts/#{map-get($font, filename)}-Thin.woff') format("woff"),
+           url('../fonts/#{map-get($font, filename)}-Regular.woff2') format("woff2");
   };
 };
 
@@ -28,4 +28,5 @@ $fonts : (
 
 
 //color variables
-$priamry-color: #0000ff;
+$primary-color: #0000ff;
+$text-hd-color: #ffffffff;
