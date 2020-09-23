@@ -22,6 +22,46 @@
   padding: 1rem;
 }
 
+.article_navigation {
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+[for="email"] {
+  display: block;
+}
+
+[type="email"] {
+  border: none;
+}
+
+.fieldset {
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  background-color: #ccc;
+}
+
+[type="submit"] {
+  color: #000000;
+  margin-inline: auto;
+  display: block;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  background-color: #ffff00;
+  width: 70%;
+  cursor: pointer;
+  border: solid 0.777px #cccccc;
+}
+
+[type="submit"]:hover {
+  background-color: #ffdd00;
+  color: #000077;
+  box-shadow: 1px 1px #000000;
+  transform: scale(1.1);
+}
+
 @media (min-width: 720px) {
   .page-lists {
     @include flex-row;
