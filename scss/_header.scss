@@ -19,17 +19,26 @@
   width: 100%;
 }
 
-.heading span {
-  opacity: 0;
+#checkbox {
+  order: 2;
+  visibility: hidden;
 }
 
-#checkbox {
+.menu {
+  background-image: img("icon_menu.svg");
+  background-repeat: no-repeat;
+  display: block;
   order: 3;
+}
+
+label span {
+  visibility: hidden;
 }
 
 .header_menu {
   transform: translateX(-110%);
   position: absolute;
+  transition: 0.3s;
 }
 
 .header_menu-anchor {
@@ -52,6 +61,7 @@
   left: 0;
   height: 100vh;
   background-color: #cccccc;
+  z-index: 2;
 }
 
 [type="checkbox"]:checked ~ .header_menu > label {
@@ -61,6 +71,7 @@
   position: absolute;
   top: 2rem;
   left: 0;
+  z-index: -1;
 }
 
 header a:hover {
